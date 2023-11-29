@@ -15,7 +15,7 @@ if (formLogin != null) {
       if(isNaN(valor))
         swal("Tu pin es numérico", "", "error");
       else {
-        if(valor == "777") {
+        if(valor == "1234") {
           swal("Pin correcto", "", "success").then(() => {
             window.location = "dashboard.html"; // Redirige a la página "dashboard.html" si el PIN es correcto
           });

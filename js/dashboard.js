@@ -1,7 +1,7 @@
 const navItems = document.querySelectorAll('.nav-item'); // Selecciona todos los elementos con clase 'nav-item'
 const btnTransac = document.querySelector('#enviar'); // Selecciona el elemento con el id 'enviar'
 const div = document.querySelector('.dashboard'); // Selecciona el elemento con clase 'dashboard'
-let saldo = parseInt(localStorage.getItem("saldo")) || 333; // Obtiene el saldo almacenado en el localStorage o establece un valor predeterminado de 500
+let saldo = parseInt(localStorage.getItem("saldo")) || 500; // Obtiene el saldo almacenado en el localStorage o establece un valor predeterminado de 500
 let historial = JSON.parse(localStorage.getItem("historial")) || []; // Obtiene el historial almacenado en el localStorage o establece un arreglo vacío
 
 const formTransacciones = document.querySelector('#transacciones'); // Selecciona el elemento con clase 'transacciones'
